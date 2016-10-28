@@ -10,18 +10,18 @@ Ruby on Rails
 [User Stories](https://trello.com/b/i7mWIqvq/project-2)
 
 ##ERB
-![Login](./assets/erb.jpg)
+![Login](./assets/erb.JPG)
 
 ##Wireframes
 
 ###Login
-![Login](./assets/login.jpg)
+![Login](./assets/login.JPG)
 
 ###User
-![Login](./assets/user.jpg)
+![Login](./assets/user.JPG)
 
 ###League
-![Login](./assets/league.jpg)
+![Login](./assets/league.JPG)
 
 ###Global Standings
-![Login](./assets/globalstandings.jpg)
+![Login](./assets/globalstandings.JPG)
