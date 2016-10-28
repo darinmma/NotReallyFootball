@@ -1,7 +1,7 @@
 #Not Really Football
 -
 ##Introduction
-Not Really Football is fantasy football rails app that allows you to compete with other users in a weekly competition.  Users will be able to create a team and see how it stacks up against another users team.
+Not Really Football is fantasy football rails app that allows you to compete with other users in a weekly competition.  Users will be able to create an account and select players to their team to see how it stacks up against another user's team.
 
 ##Technologies Used
 Ruby on Rails
@@ -25,3 +25,6 @@ Ruby on Rails
 
 ###Global Standings
 ![Login](./assets/globalstandings.JPG)
+
+##MVP
+A Fully Functional CRUD Application that allows users to 
