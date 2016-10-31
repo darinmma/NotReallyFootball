@@ -9,7 +9,7 @@ Ruby on Rails
 ##User Stories
 [User Stories](https://trello.com/b/i7mWIqvq/project-2)
 
-##ERB
+##ERD
 ![Login](./assets/erb.JPG)
 
 ##Wireframes
@@ -27,4 +27,4 @@ Ruby on Rails
 ![Login](./assets/globalstandings.JPG)
 
 ##MVP
-A Fully Functional CRUD Application that allows users to 
+A Fully Functional CRUD Application that allows users to

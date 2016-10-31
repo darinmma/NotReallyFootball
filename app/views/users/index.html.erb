@@ -1,0 +1,8 @@
+<h1>Users</h1>
+<ul>
+  <% @users.each do |user| %>
+  <li><%= user.alias %></li>
+  <% end %>
+</ul>
+
+logged in as: <%= current_user.alias if current_user %> | <%= link_to 'Log Out', logout_path, method: :delete %>
