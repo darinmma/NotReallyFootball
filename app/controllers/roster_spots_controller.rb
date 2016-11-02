@@ -8,4 +8,8 @@ class RosterSpotsController < ApplicationController
       redirect_to user_path(current_user)
     end
   end
+
+  def show
+    @spot = RosterSpot.find(params.require(:roster_spot))
+  end
 end
