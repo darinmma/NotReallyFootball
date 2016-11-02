@@ -39,7 +39,7 @@
 #   {:nfl_team => "Seattle Seahawks", :nfl_team_short => "SEA"}
 # ])
 
-#   {:pos => 'QB'},
+# positions = Position.create([{:pos => 'QB'},
 #   {:pos => 'WR'},
 #   {:pos => 'RB'},
 #   {:pos => 'TE'},
@@ -49,7 +49,7 @@
 
 
 # BUF id 1
-buffalobills = Player.create!([
+buffalobills = Player.create([
   {:jersey => 7, :name => 'Cardale Jones', :position_id => 1, :team_id => 1},
   {:jersey => 3, :name => 'EJ Manuel', :position_id => 1, :team_id => 1},
   {:jersey => 5, :name => 'Tyrod Taylor', :position_id => 1, :team_id => 1},
