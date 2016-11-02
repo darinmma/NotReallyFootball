@@ -669,17 +669,48 @@ losangelesrams = Player.create([
   {:jersey => 88, :name => 'Lance Kendricks', :position_id => 4, :team_id => 28},
   {:jersey => 89, :name => 'Tyler Higbee', :position_id => 4, :team_id => 28},
   {:jersey => 84, :name => 'Temarrick Hemingway', :position_id => 4, :team_id => 28},
+  {:jersey => 4, :name => 'Greg Zuerlein', :position_id => 5, :team_id => 28}
+])
 
+#SF id 29
+sanfrancisco49ers = Player.create([
+  {:jersey => 2, :name => 'Blaine Gabbert', :position_id => 1, :team_id => 29},
+  {:jersey => 7, :name => 'Colin Kaepernick', :position_id => 1, :team_id => 29},
+  {:jersey => 15, :name => 'Christian Ponder', :position_id => 1, :team_id => 29},
+  {:jersey => 22, :name => 'Mike Davis', :position_id => 3, :team_id => 29},
+  {:jersey => 24, :name => 'Shaun Draughn', :position_id => 3, :team_id => 29},
+  {:jersey => 32, :name => 'DuJuan Harris', :position_id => 3, :team_id => 29},
+  {:jersey => 28, :name => 'Carlos Hyde', :position_id => 3, :team_id => 29},
+  {:jersey => 13, :name => 'Aaron Burbridge', :position_id => 2, :team_id => 29},
+  {:jersey => 17, :name => 'Jeremy Kerley', :position_id => 2, :team_id => 29},
+  {:jersey => 19, :name => 'Keshawn Martin', :position_id => 2, :team_id => 29},
+  {:jersey => 11, :name => 'Quinton Patton', :position_id => 2, :team_id => 29},
+  {:jersey => 82, :name => 'Torrey Smith', :position_id => 2, :team_id => 29},
+  {:jersey => 81, :name => 'Rod Streater', :position_id => 2, :team_id => 29},
+  {:jersey => 84, :name => 'Blake Bell', :position_id => 4, :team_id => 29},
+  {:jersey => 88, :name => 'Garrett Celek', :position_id => 4, :team_id => 29},
+  {:jersey => 85, :name => "Je'Ron Hamm", :position_id => 4, :team_id => 29},
+  {:jersey => 89, :name => "Vance McDonald", :position_id => 4, :team_id => 29},
+  {:jersey => 4, :name => "Phil Dawson", :position_id => 5, :team_id => 29}
+])
 
-11 Tavon Austin
-18 Kenny Britt
-10 Pharoh Cooper
-15 Bradley Marquez
-83 Brian Quick
-86 Nelson Spruce
-13 Mike Thomas
-Tight ends
-46 Cory Harkey
-84 Temarrick Hemingway
-89 Tyler Higbee
-88 Lance Kendricks
+#SEA id 30
+seattleseahawks = Player.create([
+  {:jersey => 2, :name => 'Trevone Boykin', :position_id => 1, :team_id => 30},
+  {:jersey => 3, :name => 'Russell Wilson', :position_id => 1, :team_id => 30},
+  {:jersey => 36, :name => 'Alex Collins', :position_id => 3, :team_id => 30},
+  {:jersey => 32, :name => 'Christine Michael', :position_id => 3, :team_id => 30},
+  {:jersey => 22, :name => 'CJ Prosise', :position_id => 3, :team_id => 30},
+  {:jersey => 34, :name => 'Thomas Rawls', :position_id => 3, :team_id => 30},
+  {:jersey => 46, :name => 'Will Tukuafu', :position_id => 3, :team_id => 30},
+  {:jersey => 89, :name => 'Doug Baldwin', :position_id => 2, :team_id => 30},
+  {:jersey => 15, :name => 'Jermaine Kearse', :position_id => 2, :team_id => 30},
+  {:jersey => 19, :name => 'Tanner McEvoy', :position_id => 2, :team_id => 30},
+  {:jersey => 16, :name => 'Tyler Lockett', :position_id => 2, :team_id => 30},
+  {:jersey => 10, :name => 'Paul Richardson', :position_id => 2, :team_id => 30},
+  {:jersey => 88, :name => 'Jimmy Graham', :position_id => 4, :team_id => 30},
+  {:jersey => 81, :name => 'Nick Vannett', :position_id => 4, :team_id => 30},
+  {:jersey => 82, :name => 'Luke Willson', :position_id => 4, :team_id => 30},
+  {:jersey => 86, :name => 'Brandon Williams', :position_id => 4, :team_id => 30},
+  {:jersey => 4, :name => 'Stephen Hauschka', :position_id => 5, :team_id => 30},
+])
