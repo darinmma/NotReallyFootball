@@ -614,26 +614,72 @@ tampabaybucs = Player.create([
   {:jersey => 8, :name => 'Mike Glennon', :position_id => 1, :team_id => 27},
   {:jersey => 3, :name => 'Jameis Winston', :position_id => 1, :team_id => 27},
   {:jersey => 43, :name => 'Peyton Barber', :position_id => 3, :team_id => 27},
-  {:jersey => 43, :name => 'Peyton Barber', :position_id => 3, :team_id => 27},
   {:jersey => 25, :name => 'Mike James', :position_id => 3, :team_id => 27},
   {:jersey => 22, :name => 'Doug Martin', :position_id => 3, :team_id => 27},
   {:jersey => 32, :name => 'Jacquizz Rodgers', :position_id => 3, :team_id => 27},
-  {:jersey => 32, :name => 'Jacquizz Rodgers', :position_id => 3, :team_id => 27},
-  {:jersey => 32, :name => 'Jacquizz Rodgers', :position_id => 3, :team_id => 27},
+  {:jersey => 36, :name => 'Antone Smith', :position_id => 3, :team_id => 27},
+  {:jersey => 13, :name => 'Mike Evans', :position_id => 2, :team_id => 27},
+  {:jersey => 11, :name => 'Adam Humphries', :position_id => 2, :team_id => 27},
+  {:jersey => 16, :name => 'Freddie Martino', :position_id => 2, :team_id => 27},
+  {:jersey => 89, :name => 'Russell Shepard', :position_id => 2, :team_id => 27},
+  {:jersey => 10, :name => 'Cecil Shorts', :position_id => 2, :team_id => 27},
+  {:jersey => 84, :name => 'Cameron Brate', :position_id => 4, :team_id => 27},
+  {:jersey => 45, :name => 'Alan Cross', :position_id => 4, :team_id => 27},
+  {:jersey => 82, :name => 'Brandon Myers', :position_id => 4, :team_id => 27},
+  {:jersey => 88, :name => 'Luke Stocker', :position_id => 4, :team_id => 27},
+  {:jersey => 19, :name => 'Roberto Aguayo', :position_id => 5, :team_id => 27}
+])
 
-43 Peyton Barber
-25 Mike James
-22 Doug Martin
-32 Jacquizz Rodgers
-36 Antone Smith
-Wide receivers
-13 Mike Evans
-11 Adam Humphries
-16 Freddie Martino
-89 Russell Shepard
-10 Cecil Shorts
+#AZ id 32
+arizonacards = Player.create([
+  {:jersey => 3, :name => 'Carson Palmer', :position_id => 1, :team_id => 32},
+  {:jersey => 5, :name => 'Drew Stanton', :position_id => 1, :team_id => 32},
+  {:jersey => 38, :name => 'Andre Ellington', :position_id => 3, :team_id => 32},
+  {:jersey => 31, :name => 'David Johnson', :position_id => 3, :team_id => 32},
+  {:jersey => 30, :name => 'Stepfan Taylor', :position_id => 3, :team_id => 32},
+  {:jersey => 33, :name => 'Kerwynn Williams', :position_id => 3, :team_id => 32},
+  {:jersey => 12, :name => 'John Brown', :position_id => 2, :team_id => 32},
+  {:jersey => 11, :name => 'Larry Fitzgerald', :position_id => 2, :team_id => 32},
+  {:jersey => 15, :name => 'Michael Floyd', :position_id => 2, :team_id => 32},
+  {:jersey => 10, :name => 'Brittan Golden', :position_id => 2, :team_id => 32},
+  {:jersey => 14, :name => 'JJ Nelson', :position_id => 2, :team_id => 32},
+  {:jersey => 85, :name => 'Darren Fells', :position_id => 4, :team_id => 32},
+  {:jersey => 89, :name => 'Hakeem Valles', :position_id => 4, :team_id => 32},
+  {:jersey => 84, :name => 'Jermaine Gresham', :position_id => 4, :team_id => 32},
+  {:jersey => 7, :name => 'Chandler Catanzaro', :position_id => 5, :team_id => 32}
+])
+
+#LA id 28
+losangelesrams = Player.create([
+  {:jersey => 16, :name => 'Jared Goff', :position_id => 1, :team_id => 28},
+  {:jersey => 17, :name => 'Case Keenum', :position_id => 1, :team_id => 28},
+  {:jersey => 14, :name => 'Sean Mannion', :position_id => 1, :team_id => 28},
+  {:jersey => 39, :name => 'Malcolm Brown', :position_id => 3, :team_id => 28},
+  {:jersey => 23, :name => 'Benny Cunningham', :position_id => 3, :team_id => 28},
+  {:jersey => 30, :name => 'Todd Gurley', :position_id => 3, :team_id => 28},
+  {:jersey => 34, :name => 'Chase Reynolds', :position_id => 3, :team_id => 28},
+  {:jersey => 11, :name => 'Tavon Austin', :position_id => 2, :team_id => 28},
+  {:jersey => 18, :name => 'Kenny Britt', :position_id => 2, :team_id => 28},
+  {:jersey => 10, :name => 'Pharoh Cooper', :position_id => 2, :team_id => 28},
+  {:jersey => 15, :name => 'Bradley Marquez', :position_id => 2, :team_id => 28},
+  {:jersey => 83, :name => 'Brian Quick', :position_id => 2, :team_id => 28},
+  {:jersey => 13, :name => 'Mike Thomas', :position_id => 2, :team_id => 28},
+  {:jersey => 86, :name => 'Nelson Spruce', :position_id => 2, :team_id => 28},
+  {:jersey => 46, :name => 'Cory Harkey', :position_id => 4, :team_id => 28},
+  {:jersey => 88, :name => 'Lance Kendricks', :position_id => 4, :team_id => 28},
+  {:jersey => 89, :name => 'Tyler Higbee', :position_id => 4, :team_id => 28},
+  {:jersey => 84, :name => 'Temarrick Hemingway', :position_id => 4, :team_id => 28},
+
+
+11 Tavon Austin
+18 Kenny Britt
+10 Pharoh Cooper
+15 Bradley Marquez
+83 Brian Quick
+86 Nelson Spruce
+13 Mike Thomas
 Tight ends
-84 Cameron Brate
-45 Alan Cross
-82 Brandon Myers
-88 Luke Stocker
+46 Cory Harkey
+84 Temarrick Hemingway
+89 Tyler Higbee
+88 Lance Kendricks
