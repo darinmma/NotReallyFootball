@@ -40,3 +40,12 @@ teams = Team.create([
   {:nfl_team => "San Francisco 49ers" :nfl_team_short => "SF"},
   {:nfl_team => "Seattle Seahawks" :nfl_team_short => "SEA"}
 ])
+
+postions = Position.create([
+  {:pos => 'QB'},
+  {:pos => 'WR'},
+  {:pos => 'RB'},
+  {:pos => 'TE'},
+  {:pos => 'K'},
+  {:pos => 'DEF'}
+])
