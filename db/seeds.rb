@@ -274,6 +274,7 @@ jacksonvillejaguars = Player.create([
   {:jersey => 87, :name => 'Neal Sterling', :position_id => 4, :team_id => 31},
   {:jersey => 80, :name => 'Julius Thomas', :position_id => 4, :team_id => 31},
   {:jersey => 2, :name => 'Jason Myers', :position_id => 5, :team_id => 31}
+])
 
 #TEN id 11
 tennesseetitans = Player.create([
@@ -451,7 +452,7 @@ washingtonredskins = Player.create([
   {:jersey => 34, :name => 'Mack Brown', :position_id => 3, :team_id => 19},
   {:jersey => 31, :name => 'Matt Jones', :position_id => 3, :team_id => 19},
   {:jersey => 25, :name => 'Chris Thompson', :position_id => 3, :team_id => 19},
-  {:jersey => 32 :name => 'Robert Kelley', :position_id => 3, :team_id => 19},
+  {:jersey => 32, :name => 'Robert Kelley', :position_id => 3, :team_id => 19},
   {:jersey => 80, :name => 'Jamison Crowder', :position_id => 2, :team_id => 19},
   {:jersey => 88, :name => 'Pierre Garçon', :position_id => 2, :team_id => 19},
   {:jersey => 14, :name => 'Ryan Grant', :position_id => 2, :team_id => 19},
@@ -583,7 +584,7 @@ carolinapanthers = Player.create([
   {:jersey => 84, :name => 'Ed Dickson', :position_id => 4, :team_id => 25},
   {:jersey => 82, :name => 'Chris Manhertz', :position_id => 4, :team_id => 25},
   {:jersey => 88, :name => 'Greg Olsen', :position_id => 4, :team_id => 25},
-  {:jersey => 80, :name => 'Scott Simonson', :position_id => 4, :team_id => 25}
+  {:jersey => 80, :name => 'Scott Simonson', :position_id => 4, :team_id => 25},
   {:jersey => 9, :name => 'Graham Gano', :position_id => 5, :team_id => 25}
 ])
 
@@ -605,7 +606,8 @@ neworleanssaints = Player.create([
   {:jersey => 13, :name => 'Michael Thomas', :position_id => 2, :team_id => 26},
   {:jersey => 82, :name => 'Coby Fleener', :position_id => 4, :team_id => 26},
   {:jersey => 89, :name => 'Josh Hill', :position_id => 4, :team_id => 26},
-  {:jersey => 3, :name => 'Wil Lutz', :position_id => 5, :team_id => 26},
+  {:jersey => 3, :name => 'Wil Lutz', :position_id => 5, :team_id => 26}
+])
 
 #TB id 27
 tampabaybucs = Player.create([
@@ -629,7 +631,7 @@ tampabaybucs = Player.create([
 ])
 
 #AZ id 32
-arizonacards = Player.create([
+arizonacardinals = Player.create([
   {:jersey => 3, :name => 'Carson Palmer', :position_id => 1, :team_id => 32},
   {:jersey => 5, :name => 'Drew Stanton', :position_id => 1, :team_id => 32},
   {:jersey => 38, :name => 'Andre Ellington', :position_id => 3, :team_id => 32},
