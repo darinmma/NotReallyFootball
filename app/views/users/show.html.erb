@@ -8,6 +8,7 @@
     quarterback
     <li><%= @user.roster_spots.where(:spot => 'QB').first.player.name if @user.roster_spots.where(:spot => 'QB').length > 0%>
       <%= link_to "Add Player", players_path(:position_id => 1.to_s, :spot => 'QB') %>
+      <%= link_to "Change Player", players_path(:position_id => 1.to_s, :spot => 'QB') %>
     </li>
     3 wrs
     <li>
