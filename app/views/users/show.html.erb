@@ -6,12 +6,12 @@
 
   <ul>
     quarterback
-    <li>
-
+    <li><%= User.roster_spot %>
+      <%= link_to "Add Player", players_path(:position_id => 1.to_s, :spot => 'QB') %>
     </li>
     3 wrs
     <li>
-
+      <%= link_to "Add Player", players_path(:position_id => 2.to_s) %>
     </li>
     <li>
 

@@ -10,8 +10,9 @@ Rails.application.routes.draw do
   delete 'users/:id' => 'users#destroy'
 
   get 'players/' => 'players#index'
-  post '/' => 'players#create'
   get 'players/:id' => 'players#show', as: :player
+
+  post 'roster_spots/' => 'roster_spots#create'
 
   get 'login/' => 'sessions#new'
   post 'login/' => 'sessions#create'

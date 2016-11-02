@@ -3,6 +3,13 @@
 <h2>All Players</h2>
 <ul>
   <% @players.each do |player| %>
-  <li><%= player.name %> | player.position.pos</li>
+  <li> <%= player.name %> | <%= player.position.pos %> | <%= player.team.nfl_team %>
+    <%= form_for @roster_spot do |f|%>
+      <%= f.hidden_field :player_id, value: player.id %>
+      <%= f.hidden_field :spot, value: params[:spot] %>
+      <%= f.submit "+" %>
+
+    <% end %>
+  </li>
   <% end %>
 </ul>
