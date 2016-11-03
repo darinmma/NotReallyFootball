@@ -10,7 +10,7 @@ class PlayersController < ApplicationController
   end
 
   def show
-    @player = Player.find(:id)
+    @player = Player.find(params[:id])
 
   end
 end

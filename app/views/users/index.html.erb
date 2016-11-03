@@ -1,9 +1,15 @@
 <h1><%= current_user.alias if current_user %>'s Front Office</h1>
+logged in as: <%= current_user.alias if current_user %> | <%= link_to 'Log Out', logout_path, method: :delete %>
 
 <ul>
   <%= link_to 'My Team', user_path(current_user) %>
 </ul>
 
-
-
-logged in as: <%= current_user.alias if current_user %> | <%= link_to 'Log Out', logout_path, method: :delete %>
+<h1></h1>
+<ul>
+  <% @users.each do |user| %>
+  <li>
+    <%= user.alias %> | <%= link_to 'See This Team', user_path(user) %>
+  </li>
+  <% end %>
+</ul>

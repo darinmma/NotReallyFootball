@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
 
-  before_action :set_user, only: [:show, :edit, :update, :destroy]
+  before_action :set_user, only: [:show, :edit, :update, :destroy, :clear_roster]
 
   def index
     @users = User.all
@@ -41,6 +41,11 @@ class UsersController < ApplicationController
   def destroy
     @user.destroy
     redirect_to new_user_path
+  end
+
+  def clear_roster
+    RosterSpot.where(:user_id => @user.id).destroy_all
+    redirect_to @user
   end
 
 private

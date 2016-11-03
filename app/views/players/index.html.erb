@@ -1,9 +1,7 @@
-<h1>Players</h1>
-
-<h2>All Players</h2>
+<h1>Choose Player</h2>
 <ul>
   <% @players.each do |player| %>
-  <li> <%= player.name %> | <%= player.position.pos %> | <%= player.team.nfl_team %>
+  <li> <%= link_to player.name, player %> | <%= player.position.pos %> | <%= player.team.nfl_team %>
     <%= form_for @roster_spot do |f|%>
       <%= f.hidden_field :player_id, value: player.id %>
       <%= f.hidden_field :spot, value: params[:spot] %>
