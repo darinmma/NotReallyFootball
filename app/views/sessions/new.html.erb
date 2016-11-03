@@ -24,13 +24,14 @@
 <br>
 <br>
   <div class='field'>
-    <%= f.label :email %>
+    <%= f.label :email, class: 'fieldlabel' %> <br>
     <%= f.text_field :email %>
   </div>
   <div class='field'>
-    <%= f.label :password %>
+    <%= f.label :password, class: 'fieldlabel'%> <br>
     <%= f.password_field :password %>
   </div>
+  <br>
   <div class='field'>
     <%= f.submit 'Login' %>
   </div>
