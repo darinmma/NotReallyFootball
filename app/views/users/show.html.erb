@@ -5,54 +5,53 @@
   Email: <%= @user.email %> |
 
   <ul>
-    quarterback
+    <h3>QB</h3>
     <li><%= @user.roster_spots.where(:spot => 'QB').first.player.name if @user.roster_spots.where(:spot => 'QB').length > 0%>
-      <%= link_to "Add Player", players_path(:position_id => 1.to_s, :spot => 'QB') %>
-      <%= link_to "Change Player", players_path(:position_id => 1.to_s, :spot => 'QB') %>
+      <%= link_to "Add/Change Player", players_path(:position_id => 1.to_s, :spot => 'QB') %>
     </li>
-    3 wrs
+    <h3>WR</h3>
     <li>
       <%= @user.roster_spots.where(:spot => 'WR1').first.player.name if @user.roster_spots.where(:spot => 'WR1').length > 0%>
-      <%= link_to "Add Player", players_path(:position_id => 2.to_s, :spot => 'WR1') %>
+      <%= link_to "Add/Change Player", players_path(:position_id => 2.to_s, :spot => 'WR1') %>
     </li>
     <li>
       <%= @user.roster_spots.where(:spot => 'WR2').first.player.name if @user.roster_spots.where(:spot => 'WR2').length > 0%>
-      <%= link_to "Add Player", players_path(:position_id => 2.to_s, :spot => 'WR2') %>
+      <%= link_to "Add/Change Player", players_path(:position_id => 2.to_s, :spot => 'WR2') %>
     </li>
     <li>
       <%= @user.roster_spots.where(:spot => 'WR3').first.player.name if @user.roster_spots.where(:spot => 'WR3').length > 0%>
-      <%= link_to "Add Player", players_path(:position_id => 2.to_s, :spot => 'WR3') %>
+      <%= link_to "Add/Change Player", players_path(:position_id => 2.to_s, :spot => 'WR3') %>
     </li>
-    2 rbs
+  <h3>RB</h3>
     <li>
       <%= @user.roster_spots.where(:spot => 'RB1').first.player.name if @user.roster_spots.where(:spot => 'RB1').length > 0%>
-      <%= link_to "Add Player", players_path(:position_id => 3.to_s, :spot => 'RB1') %>
+      <%= link_to "Add/Change Player", players_path(:position_id => 3.to_s, :spot => 'RB1') %>
     </li>
     <li>
       <%= @user.roster_spots.where(:spot => 'RB2').first.player.name if @user.roster_spots.where(:spot => 'RB2').length > 0%>
-      <%= link_to "Add Player", players_path(:position_id => 3.to_s, :spot => 'RB2') %>
+      <%= link_to "Add/Change Player", players_path(:position_id => 3.to_s, :spot => 'RB2') %>
     </li>
-    te
+    <h3>TE</h3>
     <li>
       <%= @user.roster_spots.where(:spot => 'TE').first.player.name if @user.roster_spots.where(:spot => 'TE').length > 0%>
-      <%= link_to "Add Player", players_path(:position_id => 4.to_s, :spot => 'TE') %>
+      <%= link_to "Add/Change Player", players_path(:position_id => 4.to_s, :spot => 'TE') %>
     </li>
-    flex
+    <h3>FLEX</h3>
     <li>
       <%= @user.roster_spots.where(:spot => 'FLEX1').first.player.name if @user.roster_spots.where(:spot => 'FLEX1').length > 0%>
-      <%= link_to "Add Player", players_path(:position_id => 'flex', :spot => 'FLEX1') %>
+      <%= link_to "Add/Change Player", players_path(:position_id => 'flex', :spot => 'FLEX1') %>
     </li>
     <li>
       <%= @user.roster_spots.where(:spot => 'FLEX2').first.player.name if @user.roster_spots.where(:spot => 'FLEX2').length > 0%>
-      <%= link_to "Add Player", players_path(:position_id => 'flex', :spot => 'FLEX2') %>
+      <%= link_to "Add/Change Player", players_path(:position_id => 'flex', :spot => 'FLEX2') %>
     </li>
-    k
+    <h3>K</h3>
     <li>
       <%= @user.roster_spots.where(:spot => 'K').first.player.name if @user.roster_spots.where(:spot => 'K').length > 0%>
-      <%= link_to "Add Player", players_path(:position_id => 5.to_s, :spot => 'K') %>
+      <%= link_to "Add/Change Player", players_path(:position_id => 5.to_s, :spot => 'K') %>
     </li>
   </ul>
 
 
-<%= link_to 'Back to the list', users_path %> |
+<%= link_to 'My Front Office', users_path %> |
 <%= link_to 'Delete your account', @user, method: :delete, data: {confirm: 'are you sure you want to delete your account?'} %>

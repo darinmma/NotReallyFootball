@@ -1,4 +1,10 @@
-<h1>Log In</h1>
+<h1>Not Really Football</h1>
+<p>Welcome to Not Really Football!</p>
+<p>Pick Your Players! Any Team! Any Time!</p>
+<p>Test Your Football Knowledge Against Other Football Pros!</p>
+
+<p>Welcome to Not Really Football where Football Fans can create a team and see how it measures up against other members.  The premise is simple, pick your players, watch the games, and see how they do! Good Luck!</p>
+<%= link_to 'Get In The Game!', new_user_path %>
 <%= form_for :login do |f| %>
   <div class='field'>
     <%= f.label :email %>
@@ -9,6 +15,6 @@
     <%= f.password_field :password %>
   </div>
   <div class='field'>
-    <%= f.submit %>
+    <%= f.submit 'Login' %>
   </div>
-  <% end %>
+<% end %>

@@ -1,8 +1,7 @@
-<h1>Users</h1>
+<h1><%= current_user.alias if current_user %>'s Front Office</h1>
+
 <ul>
-  <% @users.each do |user| %>
-  <li><%= user.alias %></li>
-  <% end %>
+  <%= link_to 'My Team', user_path(current_user) %>
 </ul>
 
 
