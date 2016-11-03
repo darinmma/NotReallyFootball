@@ -1,11 +1,28 @@
-<h1>Not Really Football</h1>
-<p>Welcome to Not Really Football!</p>
-<p>Pick Your Players! Any Team! Any Time!</p>
-<p>Test Your Football Knowledge Against Other Football Pros!</p>
+<div class = "welcomebody">
 
-<p>Welcome to Not Really Football where Football Fans can create a team and see how it measures up against other members.  The premise is simple, pick your players, watch the games, and see how they do! Good Luck!</p>
-<%= link_to 'Get In The Game!', new_user_path %>
+<link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
+
+<div class="jumbotron">
+  <div class="container">
+    <h1>Not Really Football</h1>
+
+    <p>Pick Your Players! Any Team! Any Time!</p>
+
+    <p>Test Your Football Knowledge Against Other Football Pros!</p>
+
+    <p>Welcome to Not Really Football where Football Fans can create a team and see how it measures up against other members.  The premise is simple, pick your players, watch the games, and see how they do! Good Luck!</p>
+
+    <p><a class="btn btn-primary btn-lg" href="/users/new" role="button">Get In The Game</a></p>
+  </div>
+</div>
+
+<div id='login' class='container'>
+<%#= link_to 'Get In The Game!', new_user_path %>
 <%= form_for :login do |f| %>
+<br>
+<br>
+<br>
+<br>
   <div class='field'>
     <%= f.label :email %>
     <%= f.text_field :email %>
@@ -18,3 +35,9 @@
     <%= f.submit 'Login' %>
   </div>
 <% end %>
+</div>
+<br>
+<br>
+<br>
+<br>
+</div>
