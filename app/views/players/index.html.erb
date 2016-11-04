@@ -12,9 +12,9 @@
     </ul>
   </div>
 </nav>
-
-<h1>Choose Player</h1>
+<div class="centered">
 <ul>
+  <h1>Choose Player</h1>
   <% @players.each do |player| %>
   <li> <%= link_to player.name, player %> | <%= player.position.pos %> | <%= player.team.nfl_team %>
     <%= form_for @roster_spot do |f|%>
@@ -26,3 +26,4 @@
   </li>
   <% end %>
 </ul>
+</div>

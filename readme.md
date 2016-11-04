@@ -13,6 +13,9 @@ Not Really Football is fantasy football rails app that allows you to compete wit
 ##Approach Taken
 I started out by using Ruby on Rails and postgresql to create a database.  I created five models for managing all my data and database.  In order to make it so users could add players to a team, I utilized a join table which allowed for players to be present on multiple teams.
 
+##Unsolved Problems
+I haven't been able to figure out how to get live scoring.  Will look into using an API in the future to automatically grab this data.
+
 ##Installation Instructions
 1. Click on [this link](https://github.com/darinmma/NotReallyFootball) which will navigate to my Github repository.
 
