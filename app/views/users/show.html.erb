@@ -1,19 +1,20 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">Not Really Football</a>
+      <a class="navbar-brand" href="login">Not Really Football</a>
     </div>
     <ul class="nav navbar-nav">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Page 1</a></li>
-      <li><a href="#">Page 2</a></li>
-      <li><a href="#">Page 3</a></li>
+      <li>
+        <%= link_to 'Home', users_path %>
+      </li>
+      <li><%= link_to 'My Team', user_path(current_user) %></li>
+      <li><%= link_to 'Log Out', logout_path, method: :delete %></li>
     </ul>
   </div>
 </nav>
-<h1><%= @user.alias %>'s Roster</h1>
 
 <p>Email: <%= @user.email %> </p>
+
 
   <ul>
     <li>
@@ -85,5 +86,5 @@
 
 <br>
 
-<%= link_to 'My Front Office', users_path %> | <%= link_to 'Edit My Information', edit_user_path %> |
-<%= link_to 'Delete your account', @user, method: :delete, data: {confirm: 'are you sure you want to delete your account?'} %>
+<%= link_to 'Back To My Front Office', users_path %>
+</div>

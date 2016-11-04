@@ -1,3 +1,18 @@
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="login">Not Really Football</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li>
+        <%= link_to 'Home', users_path %>
+      </li>
+      <li><%= link_to 'My Team', user_path(current_user) %></li>
+      <li><%= link_to 'Log Out', logout_path, method: :delete %></li>
+    </ul>
+  </div>
+</nav>
+
 <h1>Choose Player</h1>
 <ul>
   <% @players.each do |player| %>
