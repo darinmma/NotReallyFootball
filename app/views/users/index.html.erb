@@ -1,13 +1,13 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">Not Really Football</a>
+      <a class="navbar-brand" href="login">Not Really Football</a>
     </div>
     <ul class="nav navbar-nav">
       <li>
         <%= link_to 'Home', users_path %>
       </li>
-      <li><a href="#">Page 1</a></li>
+      <li><%= link_to 'Players', players_path %></li>
       <li><a href="#">Page 2</a></li>
       <li><a href="#">Page 3</a></li>
     </ul>
@@ -15,13 +15,18 @@
 </nav>
 
 <h1><%= current_user.alias if current_user %>'s Front Office</h1>
-logged in as: <%= current_user.alias if current_user %> | <%= link_to 'Log Out', logout_path, method: :delete %>
-
+<p>logged in as: <%= current_user.alias if current_user %> | <%= link_to 'Log Out', logout_path, method: :delete %>
+</p>
+<div class="col-md-4">
 <ul>
-  <%= link_to 'My Team', user_path(current_user) %>
+  <h3>My Account</h3>
+  <li><%= link_to 'My Team', user_path(current_user) %></li>
+  <li><%= link_to 'Edit My Information', edit_user_path(current_user) %> </li>
+  <li><%= link_to 'Delete Your Account', @user, method: :delete, data: {confirm: 'are you sure you want to delete your account?'} %></li>
 </ul>
-
-<h1></h1>
+</div>
+<div class="col-md-4">
+<h3>League Hub</h3>
 <ul>
   <% @users.each do |user| %>
   <li>
@@ -29,3 +34,4 @@ logged in as: <%= current_user.alias if current_user %> | <%= link_to 'Log Out',
   </li>
   <% end %>
 </ul>
+</div>
